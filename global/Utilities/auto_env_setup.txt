@@ -1,0 +1,3 @@
+url = "http:/www.rubygems.com"
+browser = firefox
+region = QA
