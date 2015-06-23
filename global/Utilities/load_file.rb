@@ -4,7 +4,6 @@ require 'require_all'
 require 'rspec'
 require 'rspec/expectations'
 
-
 require File.expand_path('../../element_repository/element_properties.rb',__FILE__)
 
 require File.expand_path('../../utilities/test_data',__FILE__)

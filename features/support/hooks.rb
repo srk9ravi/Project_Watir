@@ -10,7 +10,13 @@ Before do |scenario|
 end
 
 After do |scenario|
-  puts 'inside after block in hooks file '
+  if scenario.failed?
+    puts " Scenario FAILED :- '#{@scenario_name}'"
+    puts " ############################################## "
+  else
+    puts " Scenario PASSED :- '#{@scenario_name}'"
+    puts " ############################################## "
+  end
 end
 
 

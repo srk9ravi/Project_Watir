@@ -9,6 +9,7 @@ gem 'require_all'
 gem 'rake'
 gem 'pry'
 gem 'nokogiri'
+gem 'page_navigation'
 
 
 
